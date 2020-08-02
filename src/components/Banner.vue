@@ -4,6 +4,7 @@
     <p class="description">Unique deli with rotating specials in Marquette, MI</p>
     <p>Open Monday - Friday from 11am - 6pm</p>
     <p>113 S. 3rd Street, Marquette, MI 49855</p>
+    <p>Call ahead: <a href="tel:906-273-0639">(906) 273-0639</a></p>
 
     <a class="btn btn-primary directions" href="https://www.google.com/maps/dir//%2746.5434423,-87.3951857%27" target="_blank">
       <i class="fa fa-location-arrow" aria-hidden="true"></i> Get directions
