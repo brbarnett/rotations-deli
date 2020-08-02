@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
-      <a class="navbar-brand" href="#">Rotations Deli</a>
+      <a class="navbar-brand" href="#">
+        <img src="../assets/rotations-logo.png" /> Rotations Deli
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,5 +42,15 @@ export default class Header extends Vue {}
 <style scoped lang="scss">
 .container {
   height: 56px;
+}
+.navbar-brand {
+  height: 56px;
+  margin-bottom: -8px;
+  margin-top: -8px;
+  padding: 0;
+
+  > img {
+    height: 100%;
+  }
 }
 </style>

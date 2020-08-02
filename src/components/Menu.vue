@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <section class="container">
     <h2>Menu</h2>
 
     <div class="row">
@@ -14,11 +14,13 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+
+import './section.scss';
 
 interface MenuItem {
   description: string;
