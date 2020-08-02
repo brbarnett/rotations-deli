@@ -3,7 +3,7 @@
     <h2>Menu</h2>
 
     <div class="row">
-      <div v-for="item in menuItems" :key="item.name" class="col-sm-4">
+      <div v-for="item in menuItems" :key="item.name" class="col-md-6 col-lg-4">
         <div class="card">
           <img v-bind:src="item.image" class="card-img-top" v-bind:alt="item.name" />
           <div class="card-body">
@@ -82,3 +82,9 @@ export default class Menu extends Vue {
   ];
 }
 </script>
+
+<style scoped lang="scss">
+.card {
+  margin-bottom: 30px;
+}
+</style>
