@@ -1,14 +1,11 @@
 <template>
   <section class="container banner">
     <h1>Rotations Deli</h1>
-    <p class="description">Unique deli with rotating specials in Marquette</p>
+    <p class="description">Unique deli with rotating specials in Marquette, MI</p>
     <p>Open Monday - Friday from 11am - 6pm</p>
+    <p>113 S. 3rd Street, Marquette, MI 49855</p>
 
-    <a
-      class="btn btn-primary directions"
-      href="https://www.google.com/maps/dir//%2746.5434423,-87.3951857%27"
-      target="_blank"
-    >
+    <a class="btn btn-primary directions" href="https://www.google.com/maps/dir//%2746.5434423,-87.3951857%27" target="_blank">
       <i class="fa fa-location-arrow" aria-hidden="true"></i> Get directions
     </a>
     <img class="img-fluid" src="../assets/rotations-entry.jpg" alt="Rotations Deli" />
