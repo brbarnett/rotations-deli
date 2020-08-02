@@ -26,7 +26,7 @@ export default class Banner extends Vue {}
 
   h1 {
     color: #61202b;
-    font-size: 64px;
+    font-size: 60px;
     margin-top: 60px;
     text-transform: uppercase;
   }
