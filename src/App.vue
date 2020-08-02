@@ -17,6 +17,8 @@ import Header from './components/Header.vue';
 import Location from './components/Location.vue';
 import Menu from './components/Menu.vue';
 
+Vue.filter('currency', (value: number) => `$${value.toFixed(2)}`);
+
 @Component({
   components: {
     Banner,
