@@ -31,6 +31,7 @@ interface MenuItem {
 
 @Component
 export default class Menu extends Vue {
+  /* eslint-disable global-require */
   private menuItems: MenuItem[] = [
     {
       description:
@@ -49,7 +50,7 @@ export default class Menu extends Vue {
     {
       description:
         'Philly cheese steak: Paper thin ribeye steak, onions, and choice of Provolone or Cheez-Whiz on a hoagie roll.',
-      image: 'https://via.placeholder.com/300x200',
+      image: require('../assets/menu/dave.jpg'),
       name: 'The Dave',
       price: 9.75,
     },
@@ -63,25 +64,32 @@ export default class Menu extends Vue {
     {
       description:
         'Cilantro-pork taco: Smokey pulled pork with a tangy cilantro-lime relish, topped with Chihuahua cheese, green onions, cilantro, and arugula in corn tortilla.',
-      image: 'https://via.placeholder.com/300x200',
+      image: require('../assets/menu/emily.jpg'),
       name: 'The Emily',
       price: 7.25,
     },
     {
       description:
         'Pastrami: Classic deli sandwich, thinly sliced pastrami, swiss cheese, spicy brown mustard on grilled rye bread.',
-      image: 'https://via.placeholder.com/300x200',
+      image: require('../assets/menu/joey.jpg'),
       name: 'The Joey',
       price: 9.0,
     },
     {
       description:
         'Falafel: Deep fried chickpea fritters nestled in a pita and topped with roma tomatoes, arugula, green onion with a choice of sauce: tzatziki or tahini.',
-      image: 'https://via.placeholder.com/300x200',
+      image: require('../assets/menu/ann.jpg'),
       name: 'The Ann',
       price: 5.5,
     },
+    {
+      description: '??',
+      image: require('../assets/menu/becky.jpg'),
+      name: 'The Becky',
+      price: 0.0,
+    },
   ];
+  /* eslint-enable global-require */
 }
 </script>
 
