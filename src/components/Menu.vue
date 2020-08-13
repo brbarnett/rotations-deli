@@ -36,14 +36,14 @@ export default class Menu extends Vue {
     {
       description:
         'Gyro: Pork and lamb slowly cooked on a vertical rotisserie and shaved into a pita with Roma tomatoes, onion and tzatziki sauce.',
-      image: 'https://via.placeholder.com/600x400',
+      image: '../assets/menu/steve.jpg',
       name: 'The Steve',
       price: 6.5,
     },
     {
       description:
         'Cudighi: Homemade sweet and spicy pork sausage on French bread served two ways: “traditional” with sliced onion and yellow mustard or “pizza” with mozzarella cheese and pizza sauce.',
-      image: 'https://via.placeholder.com/300x200',
+      image: '../assets/menu/jake.jpg',
       name: 'The Jake',
       price: 8.5,
     },
@@ -57,7 +57,7 @@ export default class Menu extends Vue {
     {
       description:
         'Grilled ham and cheese: Our version of a classic, thinly sliced ham, with your choice of cheese, grilled between two pieces of pita bread.',
-      image: 'https://via.placeholder.com/300x200',
+      image: '../assets/menu/jason.jpg',
       name: 'The Jason',
       price: 6.75,
     },
@@ -86,6 +86,12 @@ export default class Menu extends Vue {
       description: '??',
       image: require('../assets/menu/becky.jpg'),
       name: 'The Becky',
+      price: 0.0,
+    },
+    {
+      description: '??',
+      image: require('../assets/menu/reuben.jpg'),
+      name: 'The Reuben',
       price: 0.0,
     },
   ];
