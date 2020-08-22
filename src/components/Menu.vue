@@ -83,10 +83,11 @@ export default class Menu extends Vue {
       price: 5.5,
     },
     {
-      description: '??',
+      description:
+        'Grilled turkey breast with goat cheese, arugula & a homemade sweet & spicy cranberry sauce on focaccia',
       image: require('../assets/menu/becky.jpg'),
       name: 'The Becky',
-      price: 0.0,
+      price: 9.0,
     },
     {
       description: '??',
