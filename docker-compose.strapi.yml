@@ -1,0 +1,30 @@
+# source: https://strapi.io/documentation/3.0.0-beta.x/installation/docker.html
+version: '3'
+
+services:
+  strapi:
+    container_name: strapi
+    image: strapi/strapi:3.1.4-alpine
+    environment:
+      DATABASE_CLIENT: mongo
+      DATABASE_NAME: strapi
+      DATABASE_HOST: database
+      DATABASE_PORT: 27017
+      DATABASE_USERNAME: strapi
+      DATABASE_PASSWORD: strapi
+    ports:
+      - 1337:1337
+    volumes:
+      - ./cms/app:/srv/app
+    depends_on:
+      - database
+
+  database:
+    container_name: database
+    image: mongo:4.4.0
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: strapi
+      MONGO_INITDB_ROOT_PASSWORD: strapi
+    volumes:
+      - ./cms/db:/var/lib/mysql
