@@ -2,7 +2,7 @@
   <section class="container banner">
     <h1>Rotations Deli</h1>
     <p class="description">Unique deli with rotating specials in Marquette, MI</p>
-    <p>Open Monday - Friday from 11am - 6pm</p>
+    <p>Open Monday - Friday from 11am - 7pm</p>
     <p>113 S. 3rd Street, Marquette, MI 49855</p>
     <p>Call ahead: <a href="tel:906-273-0639">(906) 273-0639</a></p>
 
