@@ -35,14 +35,14 @@ export default class Menu extends Vue {
   private menuItems: MenuItem[] = [
     {
       description:
-        'Gyro: Pork and lamb slowly cooked on a vertical rotisserie and shaved into a pita with Roma tomatoes, onion and tzatziki sauce.',
+        'Gyro: Spiced lamb cooked on a vertical rotisserie, topped with tzatziki sauce, tomatoes and onion on a pita.',
       image: require('../assets/menu/steve.jpg'),
       name: 'The Steve',
       price: 6.5,
     },
     {
       description:
-        'Cudighi: Homemade sweet and spicy pork sausage on French bread served two ways: “traditional” with sliced onion and yellow mustard or “pizza” with mozzarella cheese and pizza sauce.',
+        'Cudighi: Homemade sweet and spicy pork sausage on French bread served two ways: "traditional" with sliced onion and yellow mustard or "pizza" with mozzarella cheese and pizza sauce.',
       image: require('../assets/menu/jake.jpg'),
       name: 'The Jake',
       price: 8.5,
@@ -84,15 +84,16 @@ export default class Menu extends Vue {
     },
     {
       description:
-        'Grilled turkey breast with goat cheese, arugula & a homemade sweet & spicy cranberry sauce on focaccia',
+        'Grilled turkey breast with goat cheese, arugula and a spicy cranberry sauce inside focaccia bread.',
       image: require('../assets/menu/becky.jpg'),
       name: 'The Becky',
       price: 9.0,
     },
     {
-      description: '??',
+      description:
+        'Reuben: Corned beef, sauerkraut, swiss cheese and and Thousand Island dressing on dark rye.',
       image: require('../assets/menu/reuben.jpg'),
-      name: 'The Reuben',
+      name: 'The Ruby',
       price: 0.0,
     },
   ];
