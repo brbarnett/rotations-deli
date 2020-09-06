@@ -26,7 +26,7 @@ interface MenuItem {
   description: string;
   image: string;
   name: string;
-  price: number;
+  price: number | undefined;
 }
 
 @Component
@@ -94,7 +94,7 @@ export default class Menu extends Vue {
         'Reuben: Corned beef, sauerkraut, swiss cheese and and Thousand Island dressing on dark rye.',
       image: require('../assets/menu/reuben.jpg'),
       name: 'The Ruby',
-      price: 0.0,
+      price: undefined,
     },
   ];
   /* eslint-enable global-require */
