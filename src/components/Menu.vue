@@ -42,13 +42,6 @@ export default class Menu extends Vue {
     },
     {
       description:
-        'Cudighi: Homemade sweet and spicy pork sausage on French bread served two ways: "traditional" with sliced onion and yellow mustard or "pizza" with mozzarella cheese and pizza sauce.',
-      image: require('../assets/menu/jake.jpg'),
-      name: 'The Jake',
-      price: 8.5,
-    },
-    {
-      description:
         'Philly cheese steak: Paper thin ribeye steak, onions, and choice of Provolone or Cheez-Whiz on a hoagie roll.',
       image: require('../assets/menu/dave.jpg'),
       name: 'The Dave',
