@@ -87,7 +87,7 @@ export default class Menu extends Vue {
         'Reuben: Corned beef, sauerkraut, swiss cheese and and Thousand Island dressing on dark rye.',
       image: require('../assets/menu/reuben.jpg'),
       name: 'The Ruby',
-      price: undefined,
+      price: 9.0,
     },
     {
       description:
