@@ -89,6 +89,13 @@ export default class Menu extends Vue {
       name: 'The Ruby',
       price: undefined,
     },
+    {
+      description:
+        'Chicken shawarma with cucumber, arugula, parsley and a choice of tzatziki or tahini.',
+      image: require('../assets/menu/chris.jpg'),
+      name: 'The Chris',
+      price: 7.75,
+    },
   ];
   /* eslint-enable global-require */
 }
