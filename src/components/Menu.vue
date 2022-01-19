@@ -43,66 +43,73 @@ export default class Menu extends Vue {
   private menuItems: MenuItem[] = [
     {
       description:
+        'Breakfast sandwich: Housemade sausage, 2 scrambled egg with a hint of soy sauce, american cheese on a potato roll',
+      image: require('../assets/menu/maggie.jpg'),
+      name: 'The Maggie',
+      price: 6.25,
+    },
+    {
+      description:
         'Cheese Steak: Ribeye, Caramelized onions, with your choice of Cheez-Whiz® or Provolone cheese, on a Hoagie roll.',
       image: require('../assets/menu/dave.jpg'),
       name: 'The Dave',
-      price: 10.75,
+      price: 12.5,
     },
     {
       description:
         'Gyro: Spiced Lamb, Onion, Tomato, Tzatziki sauce, on Pita Bread.',
       image: require('../assets/menu/steve.jpg'),
       name: 'The Steve',
-      price: 7.5,
+      price: 8.75,
     },
     {
       description:
         'Grilled Ham/Cheese on Pita Bread: your choice of Swiss, Provolone, or Mozzarella.',
       image: require('../assets/menu/jason.jpg'),
       name: 'The Jason',
-      price: 7.75,
+      price: 8.5,
     },
     {
       description:
         'Pulled Pork Tacos (3): Smoky Pork, Chihuahua cheese, cilantro/lime relish, and Arugula on corn tortillas.',
       image: require('../assets/menu/emily.jpg'),
       name: 'The Emily',
-      price: 8.5,
+      price: 9.0,
     },
     {
       description:
         'Chicken Shawarma: Middle-Eastern spiced chicken, Cucumber, Fresh Parsley, Arugula, on Pita Bread, with your choice of Tzatziki or Tahini Sauce.',
       image: require('../assets/menu/chris.jpg'),
       name: 'The Chris',
-      price: 8.25,
+      price: 9.0,
     },
     {
       description:
         'Falafel: Deep fried Chickpea Fritters, Tomato, Green Onion, Arugula, on Pita Bread, with your choice of Tzatziki or Tahini sauce.',
       image: require('../assets/menu/ann.jpg'),
       name: 'The Ann',
-      price: 6.5,
+      price: 7.0,
     },
     {
       description:
         'Pastrami: Pastrami on Dark Rye with Spicy Brown Mustard and Swiss Cheese.',
       image: require('../assets/menu/joey.jpg'),
       name: 'The Joey',
-      price: 9.75,
+      price: 11.5,
     },
     {
       description:
         'Grilled Turkey, Goat Cheese, Spicy Cranberry sauce, Arugula, on Focaccia Bread.',
       image: require('../assets/menu/becky.jpg'),
       name: 'The Becky',
-      price: 9.75,
+      price: 10.6,
     },
     {
       description:
         'Reuben: Corned beef, Sauerkraut, Swiss Cheese, 1,000 Island Dressing on Dark Rye.',
       image: require('../assets/menu/reuben.jpg'),
       name: 'The Ruby',
-      price: 9.75,
+      price: 11.5,
     },
   ];
   /* eslint-enable global-require */
